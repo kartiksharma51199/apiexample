@@ -1,0 +1,19 @@
+<!-- <table >
+    <tr>
+    <th>userId</th>
+    <th>id</th>
+    <th>title</th>
+    <th>body</th>
+    
+    </tr>
+    <tr *ngFor="let data of userArray">
+      <td>{{data.userId}}</td>
+      <td>{{data.id}}</td>
+      <td>{{data.title}}</td>
+      <td>{{data.body}}</td>
+  
+    </tr>
+  </table> -->
+  <app-input (nameEmit)="name($event)" [placeholder]="placeholdername"></app-input>
+
+  <app-input [placeholder]="placeholderpassword" [type]="type"></app-input>

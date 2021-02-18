@@ -1,16 +1,4 @@
-.view{
-    background-color: black;
-    color: white;
-}
-.view:hover{
-    background-color:turquoise;
-    
-}
 
-.hover{
-    transform: rotate(90deg);
-    transition: .5s;
-}
 table{
     border-collapse: collapse;
     width: 100%;
